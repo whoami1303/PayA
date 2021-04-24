@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4000" height="4000" viewBox="0 0 4000 4000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 39.583px;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: "MADE TOMMY";
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        font-size: 1035.417px;
+        filter: url(#filter);
+        fill: #f4efea;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="3397" y1="1961.619" x2="2302" y2="1923.381" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cc2b5e"/>
+      <stop offset="1" stop-color="#753a88"/>
+    </linearGradient>
+    <filter id="filter" x="2484" y="1535" width="732" height="726" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#f2f7f2"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="Pay" class="cls-1" transform="translate(548.496 2260.976) scale(26.139)">Pay</text>
+  <circle class="cls-2" cx="2849.5" cy="1942.5" r="547.5"/>
+  <text id="A" class="cls-3" x="2473.704" y="2261.056">A</text>
+</svg>

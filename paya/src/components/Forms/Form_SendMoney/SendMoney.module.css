@@ -1,0 +1,57 @@
+/* Tag's */
+input,select  {
+  border-radius: 15px!important;
+  padding-right: 30px;
+}
+
+label {
+  padding-left: 5px;
+}
+h3 {
+
+}
+
+
+/* ID's */
+
+
+/* Classes*/
+.send-money {
+  min-width: 300px;
+}
+
+
+.btn {
+  display: inline-block;
+  width: 400px;
+  padding: 10px 30px;
+  font-weight: 300;
+  color: white!important;
+  background-color: var(--main-color);
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--main-color-hover);
+}
+
+.identity-button {
+  min-height: 100px;
+  min-width: 150px;
+  color: black!important;
+}
+
+.identity-icon {
+  font-size: 40px;
+  background: transparent;
+}
+
+.identity-block {
+
+}
+
+.identity-icon:checked {
+  color: red;
+}

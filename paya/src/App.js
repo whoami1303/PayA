@@ -1,25 +1,20 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.module.css';
+import {Route, Switch, withRouter } from 'react-router-dom';
 
-function App() {
+
+import PageDestination from './pages/Page_Destination';
+import PageDetails from './pages/Page_Details';
+import PageSendMoney from './pages/Page_Home';
+import PageVerification from './pages/Page_Verification';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <PageSendMoney />
     </div>
   );
 }
+
 
 export default App;

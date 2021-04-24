@@ -1,0 +1,19 @@
+function App() {
+  return (
+
+
+
+    <div className="App">
+        <Navigation />
+
+        <SendMoney />
+        // Form Destination
+
+        // Identity Verification
+
+        // Payment Details
+
+        // Success
+    </div>
+  );
+}
