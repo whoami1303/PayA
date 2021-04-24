@@ -3,6 +3,7 @@ import { Form, Button, Row, Col, ToggleButtonGroup, ToggleButton, ButtonGroup } 
 import { ReactComponent as SVG } from '../../../assets/images/paya_logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import { useHistory } from 'react-router-dom';
 import { faPassport, faCar, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import style from '../Form_SendMoney/SendMoney.module.css';
 
@@ -18,6 +19,7 @@ const Destination = (props) => {
     { name: 'Driving license', value: '3', svg: faCar},
   ];
 
+  const history = useHistory();
   const linkDestination = () => {
     props.history.push("/destination")
   }
@@ -44,7 +46,7 @@ const Destination = (props) => {
               </Form.Group>
 
               <div className={`${"row justify-content-center"}`}>
-                <Button className={`${style["btn"]}`} type="submit">Continue</Button>
+                <Button className={`${style["btn"]}`} onClick={() =>  history.push("/verification")} type="submit">Continue</Button>
               </div>
             </Form>
           </div>

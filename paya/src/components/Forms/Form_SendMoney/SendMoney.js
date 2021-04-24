@@ -2,12 +2,16 @@ import React, { useState } from 'react';
 import { Form, Button, Row, Col, ToggleButtonGroup, ToggleButton, ButtonGroup }   from 'react-bootstrap';
 import { ReactComponent as SVG } from '../../../assets/images/paya_logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import {useHistory} from 'react-router-dom';
 import { faPassport, faCar, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import style from './SendMoney.module.css';
 
 const SendMoney = (props) => {
-
+  const history = useHistory();
+  const linkDestination = () => {
+    props.history.push("/destination");
+  }
+  
   return (
     <div className={`${"container"}`}>
       <div className={`${"row justify-content-center"} `}>
@@ -36,7 +40,7 @@ const SendMoney = (props) => {
               </Form.Group>
 
               <div className={`${"row justify-content-center"}`}>
-                <Button className={`${style["btn"]}`} type="submit" >Continue</Button>
+                <Button className={`${style["btn"]}`} type="submit" onClick={() => history.push("/destination")} >Continue</Button>
               </div>
             </Form>
           </div>

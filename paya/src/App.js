@@ -11,10 +11,15 @@ import PageVerification from './pages/Page_Verification';
 const App = () => {
   return (
     <div>
-      <PageSendMoney />
+      <Switch>
+        <Route path="/destination" component={PageDestination} />
+        <Route path="/details" component={PageDetails} />
+        <Route path="/verification" component={PageVerification} />
+        <Route path="/" exact component={PageSendMoney} />
+      </Switch>
     </div>
   );
 }
 
 
-export default App;
+export default withRouter(App);

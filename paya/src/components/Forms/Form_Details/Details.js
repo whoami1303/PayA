@@ -1,9 +1,16 @@
 import React, { useState } from 'react';
+import {useHistory} from 'react-router-dom';
 import { Form, Button, Row, Col, ToggleButtonGroup, ToggleButton, ButtonGroup }   from 'react-bootstrap';
 import style from '../Form_SendMoney/SendMoney.module.css';
 
 
 const Details = (props) => {
+  const history = useHistory();
+  const redirect = () => {
+    alert("hurray!");
+    history.push("/")
+  }
+
 
   return (
     <div className={`${"container"}`}>
@@ -29,7 +36,7 @@ const Details = (props) => {
               </Form.Row>
 
               <div className={`${"row justify-content-center my-3"}`}>
-                <Button className={`${style["btn"]}`} type="submit">Continue</Button>
+                <Button className={`${style["btn"]}`} type="submit" onClick={() => {alert("Transaction complete!"); history.push("/")} }>Continue</Button>
               </div>
             </Form>
           </div>
