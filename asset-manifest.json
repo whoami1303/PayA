@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/paya/static/css/main.eb257f8a.chunk.css",
+    "main.js": "/paya/static/js/main.c4049a2a.chunk.js",
+    "main.js.map": "/paya/static/js/main.c4049a2a.chunk.js.map",
+    "runtime-main.js": "/paya/static/js/runtime-main.800cfe77.js",
+    "runtime-main.js.map": "/paya/static/js/runtime-main.800cfe77.js.map",
+    "static/js/2.a64b61bc.chunk.js": "/paya/static/js/2.a64b61bc.chunk.js",
+    "static/js/2.a64b61bc.chunk.js.map": "/paya/static/js/2.a64b61bc.chunk.js.map",
+    "static/js/3.1e472816.chunk.js": "/paya/static/js/3.1e472816.chunk.js",
+    "static/js/3.1e472816.chunk.js.map": "/paya/static/js/3.1e472816.chunk.js.map",
+    "index.html": "/paya/index.html",
+    "static/css/main.eb257f8a.chunk.css.map": "/paya/static/css/main.eb257f8a.chunk.css.map",
+    "static/js/2.a64b61bc.chunk.js.LICENSE.txt": "/paya/static/js/2.a64b61bc.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/paya/static/media/logo.6ce24c58.svg",
+    "static/media/paya_logo.bffbc16c.svg": "/paya/static/media/paya_logo.bffbc16c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.800cfe77.js",
+    "static/js/2.a64b61bc.chunk.js",
+    "static/css/main.eb257f8a.chunk.css",
+    "static/js/main.c4049a2a.chunk.js"
+  ]
+}
