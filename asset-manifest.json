@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/paya/static/css/main.eb257f8a.chunk.css",
-    "main.js": "/paya/static/js/main.c4049a2a.chunk.js",
-    "main.js.map": "/paya/static/js/main.c4049a2a.chunk.js.map",
+    "main.js": "/paya/static/js/main.c1cc1af4.chunk.js",
+    "main.js.map": "/paya/static/js/main.c1cc1af4.chunk.js.map",
     "runtime-main.js": "/paya/static/js/runtime-main.800cfe77.js",
     "runtime-main.js.map": "/paya/static/js/runtime-main.800cfe77.js.map",
     "static/js/2.a64b61bc.chunk.js": "/paya/static/js/2.a64b61bc.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.800cfe77.js",
     "static/js/2.a64b61bc.chunk.js",
     "static/css/main.eb257f8a.chunk.css",
-    "static/js/main.c4049a2a.chunk.js"
+    "static/js/main.c1cc1af4.chunk.js"
   ]
 }
